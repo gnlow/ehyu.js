@@ -13,8 +13,8 @@
     "microbundle": "^0.11.0"
   },
   "scripts": {
-    "build": "microbundle",
-    "dev": "microbundle watch"
+    "build": "microbundle --no-sourcemap",
+    "dev": "microbundle watch --no-sourcemap"
   },
   "repository": {
     "type": "git",
