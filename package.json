@@ -1,7 +1,7 @@
 {
   "name": "ehyu",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Hangul jamo replacer",
 
   "source": "src/ehyu.ts",
   "main": "dist/ehyu.js",
@@ -20,10 +20,13 @@
     "type": "git",
     "url": "git+https://github.com/gnlow/ehyu.js.git"
   },
-  "author": "",
+  "author": "Gnlow",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gnlow/ehyu.js/issues"
   },
-  "homepage": "https://github.com/gnlow/ehyu.js#readme"
+  "homepage": "https://github.com/gnlow/ehyu.js#readme",
+  "files": [
+    "dist"
+  ]
 }
