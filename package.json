@@ -2,13 +2,19 @@
   "name": "ehyu",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "typescript": "^3.5.3"
+
+  "source": "src/ehyu.ts",
+  "main": "dist/ehyu.js",
+  "module": "dist/ehyu.mjs",
+  "unpkg": "dist/ehyu.umd.js",
+
+  "dependencies": {},
+  "devDependencies": {
+    "microbundle": "^0.11.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
