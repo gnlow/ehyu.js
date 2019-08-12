@@ -1,0 +1,23 @@
+{
+  "name": "ehyu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnlow/ehyu.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnlow/ehyu.js/issues"
+  },
+  "homepage": "https://github.com/gnlow/ehyu.js#readme"
+}
