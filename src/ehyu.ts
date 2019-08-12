@@ -127,8 +127,11 @@ class Gljas{
         this.originContent = content.split("").map((val: string) => new Glja(val));
         this.rules = [];
     }
-    replace(from: string, to: string, setup?: RuleOption){
-        this.rules.push(new Rule(from, to, setup));
+    replace(from: string | string[], to: string | string[], setup?: RuleOption){
+        var safeLength = from.length < to.length ? from.length : to.length;
+        for(var i=0;i<safeLength;i++){
+            this.rules.push(new Rule(from[i], to[i], setup));
+        }
         return this;
     }
     get content(): string{

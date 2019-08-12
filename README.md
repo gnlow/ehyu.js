@@ -28,6 +28,17 @@ var text = new ehyu.Gljas("바꿀 글");
 text.replace("ㄱ", "ㄴ");
 //바꿀 늘
 ```
+### Multiple Replace
+```js
+var text = new ehyu.Gljas("네모네모 멍뭉이의 저주");
+
+text.replace("ㅇ", "ㅁ")
+    .replace("ㅎ", "ㅍ");
+// or
+text.replace(["ㅇ", "ㅎ"], ["ㅁ", "ㅍ"]);
+// or
+text.replace("ㅇㅎ", "ㅁㅍ");
+```
 ### Option
 ```js
 text.replace("ㄱ", "ㄴ",{

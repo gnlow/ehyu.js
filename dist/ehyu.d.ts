@@ -34,7 +34,7 @@ declare class Gljas {
     originContent: Array<Glja>;
     rules: Array<Rule>;
     constructor(content: string);
-    replace(from: string, to: string, setup?: RuleOption): this;
+    replace(from: string | string[], to: string | string[], setup?: RuleOption): this;
     readonly content: string;
 }
 export { Gljas };
