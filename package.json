@@ -2,15 +2,13 @@
   "name": "ehyu",
   "version": "0.0.0",
   "description": "Hangul jamo replacer",
-
   "source": "src/ehyu.ts",
   "main": "dist/ehyu.js",
   "module": "dist/ehyu.mjs",
   "unpkg": "dist/ehyu.umd.js",
-
   "dependencies": {},
   "devDependencies": {
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.12.0-next.6"
   },
   "scripts": {
     "build": "microbundle --no-sourcemap",
